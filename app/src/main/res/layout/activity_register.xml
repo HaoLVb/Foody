@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.hust.haolv.foody.login.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@color/transparentBackgroundDangnhap"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="50dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:src="@drawable/foodytext" />
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/colorAccent"
+            android:drawableLeft="@drawable/ic_perm_identity"
+            android:drawablePadding="3dp"
+            android:drawableTint="@color/colorAccent"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/white"
+            android:textColorHint="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/passEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/colorAccent"
+            android:drawableLeft="@drawable/ic_lock_outline"
+            android:drawablePadding="3dp"
+            android:drawableTint="@color/colorAccent"
+            android:hint="Mật khẩu"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHint="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/repeatEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/colorAccent"
+            android:drawableLeft="@drawable/ic_lock_outline"
+            android:drawablePadding="3dp"
+            android:drawableTint="@color/colorAccent"
+            android:hint="Nhập lại mật khẩu"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHint="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_button"
+            android:text="Đăng ký"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
